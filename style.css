@@ -58,7 +58,7 @@ header nav img{
     align-content: center;
     cursor: pointer;
 }
-main{
+#div{
     background-color: #f9f6ed;
 
 }
@@ -91,6 +91,28 @@ main div #img{
     align-items: start;
     cursor: pointer;
 }
+#course{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 25px;
+    width: 90%;
+    box-sizing: border-box;
+    margin: 0% auto;
+}
+#course nav{
+    background-color: transparent;
+    border-radius: 16px;
+    border: 1px solid #cda452;
+    padding: 20px 12px;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: space-between;
+    align-items: start;
+    cursor: pointer;
+}
+
 
 #h1{
     color: #333333;
